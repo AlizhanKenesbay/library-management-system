@@ -26,7 +26,7 @@ public class Library {
 
     public Student getStudentById(int id) {
         for (Student student : students) {
-            if (student.idCard == id) {
+            if (student.id == id) {
                 return student;
             }
         }
